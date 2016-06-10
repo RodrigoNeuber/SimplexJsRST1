@@ -41,7 +41,7 @@
 								
 								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 								<input class="mdl-textfield__input" name="funcao" type="text" id="funcaoObjetivo" tabindex="1">
-								<label class="mdl-textfield__label" style="color: #000;" for="funcaoObjetivo">Z=</label>
+								<label class="mdl-textfield__label" style="color: #000;" for="funcaoObjetivo">Z= EX: 170+40+30+10</label>
 								</div>
 							</div>
 						</div>
@@ -51,9 +51,9 @@
 								<h4 align="center">Restrições e Variáveis</h4>
 								
 								<div ng-repeat="item in array">
-									<b>S.A.: </b>
+									<b>X.A.: </b>
 									<div class="mdl-textfield mdl-js-textfield">
-										<input class="" name="sa[]" type="text" id="regras" tabindex="2" size="20" ><=<input name="suj[]" type="text" id="regras" tabindex="2" size="5">
+										<input class="" name="sa[]" type="text" id="regras" tabindex="2" size="20" value="EX: 170+40+30+10"><=<input name="suj[]" type="text" id="regras" tabindex="2" size="5" value="EX: 300">
 									</div>
 									<input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button" id="btnDelete" value="Deletar" ng-click="del($indice)">
 								</div>
@@ -70,7 +70,7 @@
 						<div align="center" class="mdl-grid">
 							<div class="mdl-cell mdl-cell--12-col">
 								<p>Número de Iterações:<p>
-								<input  type="text" name="qtdeit" id="qtdeit" tabindex="3">
+								<input  type="text" name="qtdeit" id="qtdeit" tabindex="3" value="EX: 10">
 							</div>
 						</div>
 						
